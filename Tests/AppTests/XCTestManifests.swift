@@ -15,6 +15,8 @@ extension WebhookTests {
     //   `swift test --generate-linuxmain`
     // to regenerate.
     static let __allTests__WebhookTests = [
+        ("testInitialMessage", testInitialMessage),
+        ("testSecondMessage", testSecondMessage),
         ("testWebhook", testWebhook),
     ]
 }
